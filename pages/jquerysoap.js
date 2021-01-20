@@ -5,7 +5,7 @@ require('jquery.soap');
 
 function request(){
   $.soap({
-    url:'http://udigital.uberlandia.mg.gov.br/WsNFe2/LoteRps.jws?wsdl',
+    url:'https://apphom.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente',
     method: 'consultaCEP',
     data:{
       cep: '35669000'
